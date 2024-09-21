@@ -1,0 +1,84 @@
+*{
+  overflow-x: hidden;
+}
+
+.sec1{
+  background-image: url('https://img.freepik.com/free-photo/cartoon-student-math-class_23-2151641188.jpg?ga=GA1.1.1461989904.1705814989&semt=ais_hybrid');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec1-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+
+.sec1-form input {
+  border-radius: 5px;
+}
+
+.sec1-form button {
+  background-color: #4848e9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-sec2{
+  background-color: #f9f9f9;
+}
+
+.card-sec2:hover{
+  background-color: #eceaea;
+  transition: .3s linear;
+  transform: translateY(-6px);
+}
+
+
+@media only screen and (min-width: 0px) {
+  #form {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #form {
+    visibility: visible;
+  }
+}
+
+
+.techno-btn{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 1px 5px 3px rgba(213, 216, 216, 0.416);
+  width: 640px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 12px;
+}
+
+.techno-btn button{
+  color: black;
+  font-weight: 600;
+  border: none;
+  background-color:rgb(255, 255, 255);
+}
+
+.techno-btn button:hover{
+  border-bottom: 3px solid rgb(126, 172, 220);
+}
+
+.service-btn{
+  padding: 10px 14px;
+  border: none;
+  background-color: rgba(135, 127, 127, 0.137);
+  color: white;
+  border-radius: 30px;
+}
+
+.service-btn:hover{
+  background-color: rgba(123, 193, 211, 0.831);
+}
